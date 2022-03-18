@@ -1,6 +1,6 @@
 # Endereçamento IP
 ## O que é?
-Endereços IPs servem, basicamente, para que as informações do usuário sejam enviados para o servidor, e vice-versa.<br>
+Endereços IPs servem, basicamente, para que as informações do usuário sejam enviados para o servidor, e vice-versa.<br><br>
 Através desse endereço, o sevidor identifica o usuário e o usuário identifica o servidor. Sem isso, nenhuma conexão se torna possível (teoricamente IP 127).<br><br>
 Os endereços IPs estão em quase todos os lugares da web, entender o seu funcionamento é primordial para quem deseja seguir na área. Além de ser bem comentado no meio hacking.
 ## Classes de IPs
@@ -19,7 +19,7 @@ Isso mesmo, a sua utilidade está em outro lugar. A classe D é reservada para s
 ### Classe E
 Vai de 240 a 255 e também não suporta endereços IPs, mas é reservada para o teste de novas tecnologias. Atualmente, por exemplo, temos o 5G.
 ## Por que esses números?
-Basicamente, um endereço IP como o vemos não é o verdadeiro endereço IP. Aquele número está compilado, pois ele estendido é formado por quatro octetos binários.<br>
+Basicamente, um endereço IP como o vemos não é o verdadeiro endereço IP. Aquele número está compilado, pois ele estendido é formado por quatro octetos binários.<br><br>
 Um endereço IP provável da sua casa: 192.168.0.1<br>
 O mesmo endereço IP descompilado: 1100 0000 // 1010 1000 // 0000 0000 // 0000 0001<br>
 ## Como saber a classe do meu IP?
@@ -27,8 +27,9 @@ Basta olhar para os três primeiros números do seu endereço IP e ver a qual cl
 
 ## Endereços de rede e endereços de host
 Cada número dentro dos octetos de um endereço IP significa 1 bit. 4 octetos x 8 espaços = 32 espaços.<br><br>
-Cada espaço pode ser ocupado por dois números (0 e 1), e ao menos um octeto será reservado para a rede, dependendo de sua classe. Portanto:
-Se o IP for de classe A, o primeiro octeto será reservado para a rede. Se for de classe B, os dois primeiros octetos serão reservados para a rede. Se for de classe C, os três primeiros octetos serão reservados para a rede. O restante fica para os hosts.<br><br>
+Cada espaço pode ser ocupado por dois números (0 e 1), e ao menos um octeto será reservado para a rede, dependendo de sua classe.<br><br>
+Portanto, se o IP for de classe A, o primeiro octeto será reservado para a rede. Se for de classe B, os dois primeiros octetos serão reservados para a rede. Se for de classe C, os três primeiros octetos serão reservados para a rede.<br>
+O restante fica para os hosts.<br><br>
 Quanto mais endereços de hosts e menos endereços de redes, mais dispositivos poderão se conectar.
 
 Classe A - 2^24 = 16.777.216
@@ -48,4 +49,13 @@ Exemplo de endereço classe B: 172.16.xxx.xxx<br><br>
 Exemplo de endereço classe C: 192.168.0.xxx<br><br>
 Aonde os números representam os endereços de rede e os "x" representam os endereços de hosts.
 
-<!--## Como calcular um endereço IP?-->
+## Como calcular um endereço IP?
+É algo simples até, basta seguir uma tabela.<br>
+Temos 8 números dentro de um octeto, onde o primeiro é 1 e o último é 128.<br>
+O primeiro é 128, o segundo é 64, o terceiro é 32, o quarto é 16, o quinto é 8, o sexto é 4, o sétimo é 2 e o último é 1.<br>
+### Exemplo:
+Peguemos o 192.168.0.1 da seção "Por que esses números?".<br>
+192 &rightarrow; 1100 0000. Ou seja, o primeiro (128) + o segundo (64) = 192.<br>
+Como os outros estão com 0, não tem como contá-los.
+
+<!--Blacklist IPs-->
