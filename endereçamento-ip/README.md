@@ -18,10 +18,6 @@ Como assim?<br>
 Isso mesmo, a sua utilidade está em outro lugar. A classe D é reservada para serviços de Multicast.
 ### Classe E
 Vai de 240 a 255 e também não suporta endereços IPs, mas é reservada para o teste de novas tecnologias. Atualmente, por exemplo, temos o 5G.
-## Por que esses números?
-Basicamente, um endereço IP como o vemos não é o verdadeiro endereço IP. Aquele número está compilado, pois ele estendido é formado por quatro octetos binários.<br><br>
-Um endereço IP provável da sua casa: 192.168.0.1<br>
-O mesmo endereço IP descompilado: 1100 0000 // 1010 1000 // 0000 0000 // 0000 0001<br>
 ## Como saber a classe do meu IP?
 Basta olhar para os três primeiros números do seu endereço IP e ver a qual classe ele pertence.
 
@@ -49,13 +45,26 @@ Exemplo de endereço classe B: 172.16.xxx.xxx<br><br>
 Exemplo de endereço classe C: 192.168.0.xxx<br><br>
 Aonde os números representam os endereços de rede e os "x" representam os endereços de hosts.
 
+## Por que esses números?
+Basicamente, um endereço IP como o vemos não é o verdadeiro endereço IP. Aquele número está compilado, pois ele estendido é formado por quatro octetos binários.<br><br>
+Um endereço IP provável da sua casa: 192.168.0.1<br>
+O mesmo endereço IP descompilado: 1100 0000 // 1010 1000 // 0000 0000 // 0000 0001<br>
+
 ## Como calcular um endereço IP?
 É algo simples até, basta seguir uma tabela.<br>
 Temos 8 números dentro de um octeto, onde o primeiro é 1 e o último é 128.<br>
-O primeiro é 128, o segundo é 64, o terceiro é 32, o quarto é 16, o quinto é 8, o sexto é 4, o sétimo é 2 e o último é 1.<br>
+O primeiro é 128, o segundo é 64, o terceiro é 32, o quarto é 16, o quinto é 8, o sexto é 4, o sétimo é 2 e o último é 1.
+### Foto demonstrativa:<br>
+![tabela-dos-ips-600](https://user-images.githubusercontent.com/97858145/161392982-0db4aec2-b5f6-4cb1-b319-a517bbf88046.jpg)<br>
+**Desafio:**<br>
+Tente calcular o número dessa tabela acima.
+
 ### Exemplo:
 Peguemos o 192.168.0.1 da seção "Por que esses números?".<br>
 192 &rightarrow; 1100 0000. Ou seja, o primeiro (128) + o segundo (64) = 192.<br>
 Como os outros estão com 0, não tem como contá-los.
+
+#### Exemplo em foto:
+![tabela-ip](https://user-images.githubusercontent.com/97858145/161392851-e508bd51-132c-4a54-93a2-87133d130509.png)
 
 <!--Blacklist IPs-->
