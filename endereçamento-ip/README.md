@@ -67,4 +67,4 @@ Como os outros estão com 0, não tem como contá-los.
 #### Exemplo em foto:
 ![tabela-ip](https://user-images.githubusercontent.com/97858145/161392851-e508bd51-132c-4a54-93a2-87133d130509.png)
 
-<!--Blacklist IPs-->
+<!-- Blacklist IPs -->
