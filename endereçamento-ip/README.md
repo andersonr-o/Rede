@@ -67,4 +67,32 @@ Como os outros estão com 0, não tem como contá-los.
 #### Exemplo em foto:
 ![tabela-ip](https://user-images.githubusercontent.com/97858145/161392851-e508bd51-132c-4a54-93a2-87133d130509.png)
 
-<!-- Blacklist IPs -->
+## Blacklist IPs
+Na realidade, os IPs que constam em blacklists são fonte provável de spam. Mas isso também pode ocorrer com emails e domínios.<br>
+Para um IP, email ou domínio entrar em uma blacklist, ele precisa se tornar uma fonte provável de spam. Enviar uma quantidade muito grande de emails, ou emails com conteúdo preconceituoso e pornográfico podem levá-lo a uma blacklist.<br><br>
+### Tipos
+Há diversos tipos de blacklists, por isso é sempre bom saber em qual se está para que possa sair dela.<br>
+As principais são:<br>
+* ZEN Spamhauss
+* SURBL
+* URIBL
+* Barracuda Central
+* SpamCop
+* Senderscore
+* SORBS
+* AHBL
+* Abuse.ch
+* RATS-NoPtr
+### Como descobrir a sua
+Há diversos sites que podem fazer essa verificação. O analista de suporte da empresa aonde eu estou estagiando utiliza o ![]()
+
+### O que um IP tem a ver com uma blacklist que envolve, majoritariamente, emails?
+Muito se fala de emails, mas o que esse tópico está fazendo em um artigo de IPs então?<br><br>
+Oras, se um usuário não estiver recebendo e enviando emails por causa de seu IP, ele pode simplesmente trocá-lo e seguir a sua vida distribuindo ou não spams.<br>
+Isso é verdade, mas se estivermos falando de um usuário da área empresarial, ele não conseguirá fazer isso, pois deve passar pelo servidor antes.<br>
+
+### Como sair?
+Para isso, deverá ser utilizado um site auxiliar para descobrir o responsável por colocar o seu IP na blacklist e, assim, enviar uma solicitação a ele, pedindo a sua retirada enquanto explica o motivo de estar lá.<br>
+Um que pode ajudar é o [BlackListAlert](https://www.blacklistalert.org/).<br><br>
+Além de verificar as blacklists, ainda mostra os seus responsáveis. Depois disso, basta anotar e contatá-los.
+Em alguns casos, a retirada só é possível mediante pagamento, mas só acontece em situações mais raras e incomuns.<br><br>
