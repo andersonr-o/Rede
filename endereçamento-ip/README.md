@@ -14,7 +14,7 @@ Vai de 128 a 191 e é capaz de suportar até 65.536 endereços IPs.
 Vai de 192 a 223, sendo capaz de suportar até 256 endereços IPs. Geralmente é essa classe de IP que está na maioria dos domicílios, pois muitas vezes não há a necessidade de mais de 256 endereços IPs.
 ### Classe D
 Vai de 224 a 239, é não é capaz de suportar endereços IPs.<br>
-Como assim?<br>
+Como assim? <br>
 Isso mesmo, a sua utilidade está em outro lugar. A classe D é reservada para serviços de Multicast.
 ### Classe E
 Vai de 240 a 255 e também não suporta endereços IPs, mas é reservada para o teste de novas tecnologias. Atualmente, por exemplo, temos o 5G.
