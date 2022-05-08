@@ -27,3 +27,14 @@ Por ser mais simples, a rede ponta a ponta torna-se mais vulnerável frente à c
 Se houver conexão entre um dispositivo e outro, temos a conexão ponta a ponta; se houver conexão entre um dispositivo e outros, há a conexão multiponto.<br><br>
 Imagem de um exemplo de conexões ponta a ponta e multiponto:<br><br>
 ![ponta-a-ponta](https://user-images.githubusercontent.com/97858145/166844561-ea2567b0-3c45-4a71-8634-5a6faf4c384f.png)
+
+# CDN (Content Delivery Network)
+O CDN, funciona, basicamente, como um intermediador entre o cliente e o servidor. Mas para que queremos um intermediador? Ele não iria atrasar a conexão?<br><br>
+Não. O CDN, na verdade, deixa ela mais rápida.<br><br>
+Ele recebe a nossa solicitação ao servidor e o guarda em uma memória temporária. Mas o cliente nem sempre procura o servidor físico mais próximo. O CDN faz isso, diminuindo a latência e aumentando a rapidez da conexão.<br><br>
+Isso se já não existir o mesmo arquivo na memória temporária do seu servidor CDN. Se for o caso, a conexão será mais rápida ainda.<br><br>
+Alguns serviços de CDN, quando buscam a sua solicitação no servidor físico mais próximo, já os guarda em todos os outros CDNs ao redor do mundo, até que sua memória temporária expire.<br><br>
+Essa memória temporária serve enquanto não alteramos a solicitação. Se queremos o conteúdo X do servidor, enviamos a solicitação, e depois querermos mudar para o Y, ele removerá a solicitação do conteúdo X de sua memória temporária e nos dará o Y.<br><br>
+O CDN opera sobre arquivos estáticos, como imagens, vídeos, html, css, javascript e até PDFs.
+## Como usar o CDN
+Trata-se de um serviço pago, com um serviço semelhante a um provedor de internet. Basta comparar e escolher o que melhor te agrada
