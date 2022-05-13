@@ -1,4 +1,10 @@
-Nesse artigo iremos discorrer sobre alguns tipos de conexões, como a cliente-servidor, ponta a ponta e CDN, por exemplo.
+Nesse artigo iremos discorrer sobre alguns tipos de conexões, como:<br>
+<ul>
+<li>Cliente-Servidor;
+<li>Ponta a ponta;
+<li>CDN;
+<li>Proxy Reverso
+</ul>
 # Conexão Cliente e Servidor
  ## O que é
 A rede internet é regida por quem usa o serviço da rede e por quem provê, ou seja, cliente e servidor, respectivamente.<br><br>
