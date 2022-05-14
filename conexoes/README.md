@@ -5,8 +5,9 @@ Nesse artigo iremos discorrer sobre alguns tipos de conexões, como:<br>
 <li>CDN;
 <li>Proxy Reverso
 </ul>
+
 # Conexão Cliente e Servidor
- ## O que é
+## O que é
 A rede internet é regida por quem usa o serviço da rede e por quem provê, ou seja, cliente e servidor, respectivamente.<br><br>
 Um cliente que deseja acessar um site, digita o seu domínio no navegador, este vai até o DNS para procurar o IP do site solicitado para estabelecer o acesso.<br><br>
 Um servidor não é necessariamente uma máquina superpotente muito melhor que máquinas domésticas, mas sim uma máquina especialista em realizar uma função específica.<br><br>
