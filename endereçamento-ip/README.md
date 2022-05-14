@@ -69,7 +69,7 @@ Como os outros estão com 0, não tem como contá-los.
 
 ## Blacklist IPs
 Na realidade, os IPs que constam em blacklists são fonte provável de spam. Mas isso também pode ocorrer com emails e domínios.<br>
-Para um IP, email ou domínio entrar em uma blacklist, ele precisa se tornar uma fonte provável de spam. Enviar uma quantidade muito grande de emails, ou emails com conteúdo preconceituoso e pornográfico podem levá-lo a uma blacklist.<br><br>
+Para um IP, email ou domínio entrar em uma blacklist, ele precisa se tornar uma fonte provável de spam. Enviar uma quantidade muito grande de emails, ou emails com conteúdo preconceituoso, pornográfico ou com qualquer outro elemento em grande quantidade que seja contrário às regras do provedor como enviar muitos links, mesmo que não sejam maliciosos, podem levá-lo a uma blacklist.<br><br>
 ### Tipos
 Há diversos tipos de blacklists, por isso é sempre bom saber em qual se está para que possa sair dela.<br>
 As principais são:<br>
